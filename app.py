@@ -11,7 +11,7 @@ with open("lrScores_model.pkl", "rb") as file:
 st.title("Student Score Predictor")
 
 # Input field for the feature
-hours = st.number_input("Enter Hours Studied", min_value=1, max_value=60, step=1)
+hours = st.number_input("Enter Hours Studied", min_value=1, max_value=60, step=0.1)
 
 # Predict button
 if st.button("Predict"):
