@@ -24,7 +24,7 @@ def set_background(image_url):
     st.markdown(page_bg_img, unsafe_allow_html=True)
 
 # Set your background image
-background_image_url = "https://github.com/Ayo-tech-ai/StudentScore/blob/main/bkgroud.jpg"
+background_image_url = "https://github.com/Ayo-tech-ai/StudentScore/raw/main/bkgroud.jpg"
 set_background(background_image_url)
 
 # Set up the app title
