@@ -19,6 +19,13 @@ def set_background(image_url):
         background-blend-mode: darken;
         background-color: rgba(255, 255, 255, 0.6); /* Adds a whitish overlay */
     }}
+    h1 {{
+        color: blue; /* Sets the title color to blue */
+    }}
+    label {{
+        color: blue; /* Sets the input label color to blue */
+        font-weight: bold; /* Makes the input label bold */
+    }}
     </style>
     """
     st.markdown(page_bg_img, unsafe_allow_html=True)
